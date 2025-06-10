@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(16, 61, 223, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* light mode colour tokens */
+  --color-primary: #2563eb;
+  --color-secondary: #8c1fee;
+  --color-sucess: #099137;
+  --color-text-15: #151515;
+  --color-tertiary-white: #ffffff;
+  --color-tertiary-green: #16a34a;
+  --color-tertiary-black: #181717;
+  --color-tertiary-neutral: #6b7280;
+  --color-tertiary-subdue-text: #4b5563;
+  --color-button-purple: #743eed;
+  --color-button-blue: #2d5feb;
+  --color-light-blue: #f5faff;
+  --color-tertiary-footer: #111827;
+}
+
+/* 🌙 Dark Mode */
+.dark {
+  --color-primary: #2563eb;
+  --color-secondary: #a855f7;
+  --color-sucess: #22c55e;
+  --color-text-15: #e5e7eb;
+  --color-tertiary-white: #181717;
+  --color-tertiary-green: #22c55e;
+  --color-tertiary-black: #ffffff;
+  --color-tertiary-neutral: #9ca3af;
+  --color-tertiary-subdue-text: #ffffff;
+  --color-button-purple: #8b5cf6;
+  --color-button-blue: #3b82f6;
+  --color-light-blue: #1e293b;
+  --color-tertiary-footer: #0b0f19;
+}
