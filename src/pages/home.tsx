@@ -1,5 +1,11 @@
+import { UnderConstruction } from "src/components";
+
 const Home = () => {
-  return <div>Home Component</div>;
+  return (
+    <div>
+      <UnderConstruction />
+    </div>
+  );
 };
 
 export default Home;
